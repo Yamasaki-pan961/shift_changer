@@ -27,3 +27,15 @@ linter:
 
 # Additional information about this file can be found at
 # https://dart.dev/guides/language/analysis-options
+
+analyzer:
+  exclude:
+    - lib/models/***.freezed.dart
+  errors:
+    omit_local_variable_types: ignore
+    flutter_style_todos: ignore
+    lines_longer_than_80_chars: ignore
+    todo: ignore
+    directives_ordering: ignore
+    file_names: ignore
+    sort_pub_dependencies: ignore
